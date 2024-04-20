@@ -255,7 +255,7 @@ def main():
     driver = initialize_webdriver()
 
     try:
-        df_excel = read_excel_data('/home/student/Cloud/Owncloud/SyncVM/CIP/hslu-cip/data/raw_data/indexes_to_scrap_stage1.xlsx')
+        df_excel = read_excel_data('/home/student/Cloud/Owncloud/SyncVM/CIP/hslu-cip/data/raw_data_stage1/indexes_to_scrap_stage1.xlsx')
         # Concatenating the 'ISIN' and 'TRADING LOCATION' columns into a new column in the DataFrame
         #df_excel = df_excel.head(1)
 
@@ -279,7 +279,7 @@ def main():
             row_df = load_data_in_df(all_info, headers)
             df = pd.concat([df, row_df], ignore_index=True)
 
-        save_to_csv(df, '/home/student/Cloud/Owncloud/SyncVM/CIP/hslu-cip/data/clean_data/Imholz_Chris_studentA_stage1a.csv')
+        save_to_csv(df, '/home/student/Cloud/Owncloud/SyncVM/CIP/hslu-cip/data/clean_data_stage2/Imholz_Chris_studentA_stage1a.csv')
     finally:
         driver.quit()
         logging.info('Script ended at ' + str(datetime.now()))
