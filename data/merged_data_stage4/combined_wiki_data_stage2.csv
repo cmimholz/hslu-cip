@@ -1,0 +1,307 @@
+Index,Company,Ticker
+AEX,Adyen,ADYEN
+AEX,Aegon,AGN
+AEX,Ahold Delhaize,AD
+AEX,AkzoNobel,AKZA
+AEX,ArcelorMittal,MT
+AEX,ASM International,ASM
+AEX,ASML Holding,ASML
+AEX,Universal Music Group,UMG
+AEX,BE Semiconductors,BESI
+AEX,DSM Firmenich AG,DSFIR
+AEX,Heineken,HEIA
+AEX,IMCD,IMCD
+AEX,ING Group,INGA
+AEX,Just Eat Takeaway,TKWY
+AEX,KPN,KPN
+AEX,NN Group,NN
+AEX,Philips,PHIA
+AEX,Prosus,PRX
+AEX,Randstad,RAND
+AEX,RELX,REN
+AEX,Shell plc,SHELL
+AEX,Signify,LIGHT
+AEX,Unibail-Rodamco-Westfield,URW
+AEX,Unilever,UNA
+AEX,Wolters Kluwer,WKL
+BEL_20,AB InBev,ABI
+BEL_20,Ackermans & van Haaren,ACKB
+BEL_20,Aedifica,AED
+BEL_20,Ageas,AGS
+BEL_20,Aperam,APAM
+BEL_20,arGEN-X,ARGX
+BEL_20,Cofinimmo,COFB
+BEL_20,Elia Group,ELI
+BEL_20,Galapagos,GLPG
+BEL_20,GBL,GBLB
+BEL_20,KBC,KBC
+BEL_20,Melexis,MELE
+BEL_20,Proximus Group,PROX
+BEL_20,Sofina,SOF
+BEL_20,Solvay,SOLB
+BEL_20,Syensqo,SYENS
+BEL_20,UCB,UCB
+BEL_20,Umicore,UMI
+BEL_20,WDP,WDP
+CAC_40,Air Liquide,AI.PA
+CAC_40,Airbus,AIR.PA
+CAC_40,Alstom,ALO.PA
+CAC_40,ArcelorMittal,MT.AS
+CAC_40,AXA,CS.PA
+CAC_40,BNP Paribas,BNP.PA
+CAC_40,Bouygues,EN.PA
+CAC_40,Capgemini,CAP.PA
+CAC_40,Carrefour,CA.PA
+CAC_40,Crédit Agricole,ACA.PA
+CAC_40,Danone,BN.PA
+CAC_40,Dassault Systèmes,DSY.PA
+CAC_40,Edenred,EDEN.PA
+CAC_40,Engie,ENGI.PA
+CAC_40,EssilorLuxottica,EL.PA
+CAC_40,Eurofins Scientific,ERF.PA
+CAC_40,Hermès,RMS.PA
+CAC_40,Kering,KER.PA
+CAC_40,L'Oréal,OR.PA
+CAC_40,Legrand,LR.PA
+CAC_40,LVMH,MC.PA
+CAC_40,Michelin,ML.PA
+CAC_40,Orange,ORA.PA
+CAC_40,Pernod Ricard,RI.PA
+CAC_40,Publicis,PUB.PA
+CAC_40,Renault,RNO.PA
+CAC_40,Safran,SAF.PA
+CAC_40,Saint-Gobain,SGO.PA
+CAC_40,Sanofi,SAN.PA
+CAC_40,Schneider Electric,SU.PA
+CAC_40,Société Générale,GLE.PA
+CAC_40,Stellantis,STLAP.PA
+CAC_40,STMicroelectronics,STMPA.PA
+CAC_40,Teleperformance,TEP.PA
+CAC_40,Thales,HO.PA
+CAC_40,TotalEnergies,TTE.PA
+CAC_40,Unibail-Rodamco-Westfield,URW.PA
+CAC_40,Veolia,VIE.PA
+CAC_40,Vinci,DG.PA
+CAC_40,Worldline,WLN.PA
+OBX,Aker BP,AKRBP
+OBX,BW LPG,BWLPG
+OBX,DNB Bank,DNB
+OBX,Equinor,EQNR
+OBX,Frontline,FRO
+OBX,Golden Ocean Group,GOGL
+OBX,Hafnia Limited,HAFNI
+OBX,Höegh Autoliners ASA,HAUTO
+OBX,Kongsberg Gruppen,KOG
+OBX,Mowi,MOWI
+OBX,MPC Container Ships,MPCC
+OBX,NEL,NEL
+OBX,Nordic Semiconductor,NOD
+OBX,Norsk Hydro,NHY
+OBX,Norwegian Air Shuttle,NAS
+OBX,Orkla,ORK
+OBX,PGS,PGS
+OBX,SalMar,SALM
+OBX,Storebrand,STB
+OBX,Subsea 7,SUBC
+OBX,Telenor,TEL
+OBX,TGS ASA,TGS
+OBX,Tomra Systems,TOM
+OBX,Vår Energi ASA,VAR
+OBX,Yara International,YAR
+OSEBX,Acta Holding,ACTA
+OSEBX,Acergy,ACY
+OSEBX,AF Gruppen,AFG
+OSEBX,Arendals Fossekompani,AFK
+OSEBX,AGR Group,AGR
+OSEBX,Aktiv Kapital,AIK
+OSEBX,Aker BioMarine,AKBM
+OSEBX,Aker,AKER
+OSEBX,Aker Floating Production,AKFP
+OSEBX,Aker Seafoods,AKS
+OSEBX,Aker Solutions,AKSO
+OSEBX,AKVA Group,AKVA
+OSEBX,Algeta,ALGETA
+OSEBX,American Shipping,AMSC
+OSEBX,Apptix,APP
+OSEBX,ABG Sundal Collier,ASC
+OSEBX,Axis-Shield,ASD
+OSEBX,Atea,ATEA
+OSEBX,Austevoll Seafood,AUSS
+OSEBX,Avocet Mining,AVM
+OSEBX,Bakkafrost,BAKKA
+OSEBX,Belships,BEL
+OSEBX,Bergen Group,BERGEN
+OSEBX,Bionor Pharma,BIONOR
+OSEBX,Biotec Pharmacon,BIOTEC
+OSEBX,Birdstep Technology,BIRD
+OSEBX,Blom,BLO
+OSEBX,Byggma,BMA
+OSEBX,Bonheur,BON
+OSEBX,Borgestad,BOR
+OSEBX,BWG Homes,BWG
+OSEBX,BW Offshore Limited,BWO
+OSEBX,Camillo Eitzen & Co,CECO
+OSEBX,Cermaq,CEQ
+OSEBX,Clavis Pharma,CLAVIS
+OSEBX,Codfarmers,COD
+OSEBX,Comrod Communication,COMROD
+OSEBX,Copeinca,COP
+OSEBX,ContextVision,COV
+OSEBX,Data Respons,DAT
+OSEBX,Deep Sea Supply,DESSC
+OSEBX,Det norske oljeselskap,DETNOR
+OSEBX,DiaGenic,DIAG
+OSEBX,DNB,DNB
+OSEBX,DNO International,DNO
+OSEBX,Dockwise,DOCK
+OSEBX,DOF,DOF
+OSEBX,Dolphin Interconnect Solutions,DOLP
+OSEBX,Domstein,DOM
+OSEBX,Eitzen Chemical,ECHEM
+OSEBX,EDB ErgoGroup,EDBASA
+OSEBX,Eidesvik Offshore,EIOF
+OSEBX,Ekornes,EKO
+OSEBX,Eltek,ELT
+OSEBX,Electromagnetic G,EMGS
+OSEBX,Eitzen Maritime Services,EMS
+OSEBX,EOC,EOC
+OSEBX,Fairstar Heavy Tr,FAIR
+OSEBX,Faktor Eiendom,FAKTOR
+OSEBX,Farstad Shipping,FAR
+OSEBX,Fara,FARA
+OSEBX,Fornebu Utvikling,FBU
+OSEBX,Fred. Olsen Energy,FOE
+OSEBX,Fred. Olsen Production,FOP
+OSEBX,Frontline,FRO
+OSEBX,Funcom,FUNCOM
+OSEBX,Grenland Group,GGG
+OSEBX,Goodtech,GOD
+OSEBX,Golden Ocean Group,GOGL
+OSEBX,Golar LNG,GOL
+OSEBX,Ganger Rolf,GRO
+OSEBX,Green Reefers,GRR
+OSEBX,Grieg Seafood,GSF
+OSEBX,GTB Invest,GTB
+OSEBX,Gyldendal,GYL
+OSEBX,Havila Shipping,HAVI
+OSEBX,Hexagon Composites,HEX
+OSEBX,Hafslund ser. A,HNA
+OSEBX,Hafslund ser. B,HNB
+OSEBX,Hurtigruten,HRG
+OSEBX,IGE Resources,IGE
+OSEBX,Ignis,IGNIS
+OSEBX,Imarex,IMAREX
+OSEBX,I.M. Skaugen,IMSK
+OSEBX,Infratek,INFRA
+OSEBX,Inmeta,INM
+OSEBX,InterOil Exploration and Production,IOX
+OSEBX,Itera,ITE
+OSEBX,Intex Resources,ITX
+OSEBX,Jinhui Shipping a,JIN
+OSEBX,Kitron,KIT
+OSEBX,Kongsberg Automot,KOA
+OSEBX,Kongsberg Gruppen,KOG
+OSEBX,Komplett,KOM
+OSEBX,Kverneland,KVE
+OSEBX,Lerøy Seafood Group,LSG
+OSEBX,Mamut,MAMUT
+OSEBX,Medi-Stim,MEDI
+OSEBX,Marine Harvest,MHG
+OSEBX,MARITIME INDUSTRI,MIS
+OSEBX,Morpol,MORPOL
+OSEBX,Namsos Trafikkselskap,NAM
+OSEBX,Norwegian Air Shuttle,NAS
+OSEBX,Northland Resources,NAUR
+OSEBX,Navamedic,NAVA
+OSEBX,NEAS,NEAS
+OSEBX,Norse Energy Corp.,NEC
+OSEBX,Norsk Hydro,NHY
+OSEBX,Nio Security,NIO
+OSEBX,Northern Logistic,NLPR
+OSEBX,Norwegian Car Car,NOCC
+OSEBX,Nordic Semiconductor,NOD
+OSEBX,Northern Offshore,NOF
+OSEBX,Norwegian Energy,NOR
+OSEBX,NorDiag,NORD
+OSEBX,Norway Pelagic,NPEL
+OSEBX,Norwegian Property,NPRO
+OSEBX,Norske Skogindustrier,NSG
+OSEBX,Odfjell ser. A,ODF
+OSEBX,Odfjell ser. B,ODFB
+OSEBX,Olav Thon Eiendom,OLT
+OSEBX,Opera Software,OPERA
+OSEBX,Oceanteam,OPU
+OSEBX,Orkla,ORK
+OSEBX,ORIGIO,ORO
+OSEBX,PA Resources,PAR
+OSEBX,Petrolia Drilling,PDR
+OSEBX,Panoro Energy,PEN
+OSEBX,Petroleum Geo-Ser,PGS
+OSEBX,Photocure,PHO
+OSEBX,Polaris Media,POL
+OSEBX,Pronova BioPharma,PRON
+OSEBX,Protector Forsikring,PROTCT
+OSEBX,Prosafe,PRS
+OSEBX,PSI Group,PSI
+OSEBX,Questerre Energy,QEC
+OSEBX,Q-Free,QFR
+OSEBX,Royal Caribbean C,RCL
+OSEBX,Renewable Energy,REC
+OSEBX,Repant,REPANT
+OSEBX,Rocksource,RGT
+OSEBX,Rieber & Søn,RIE
+OSEBX,GC Rieber Shipping,RISH
+OSEBX,Reservoir Explora,RXT
+OSEBX,SalMar,SALM
+OSEBX,SAS AB,SAS NOK
+OSEBX,SeaBird Exploration,SBX
+OSEBX,Schibsted,SCH
+OSEBX,Scana Industrier,SCI
+OSEBX,Seadrill,SDRL
+OSEBX,Sevan Marine,SEVAN
+OSEBX,Statoil Fuel & Retail,SFR
+OSEBX,Simtronics,SIMTRO
+OSEBX,Siem Offshore,SIOFF
+OSEBX,Skiens Aktiemølle,SKI
+OSEBX,Stolt-Nielsen,SNI
+OSEBX,Solstad Offshore,SOFF
+OSEBX,Solvang,SOLV
+OSEBX,Songa Offshore,SONG
+OSEBX,Star Reefers Inc.,SRI
+OSEBX,Storebrand,STB
+OSEBX,Statoil,STL
+OSEBX,Storm Real Estate,STORM
+OSEBX,Subsea 7,SUB
+OSEBX,Teco Maritime,TECO
+OSEBX,Telenor,TEL
+OSEBX,Telio Holding,TELIO
+OSEBX,TGS-NOPEC Geophys,TGS
+OSEBX,Tide,TIDE
+OSEBX,Tomra Systems,TOM
+OSEBX,TTS Group,TTS
+OSEBX,Veidekke,VEI
+OSEBX,Vizrt,VIZ
+OSEBX,Voss Veksel- og L,VVL
+OSEBX,Wentworth Resources,WRL
+OSEBX,Wilh. Wilhelmsen,WWASA
+OSEBX,Wilh. Wilhelmsen,WWI
+OSEBX,Wilh. Wilhelmsen,WWIB
+OSEBX,Yara International,YAR
+PSI_20,Altri,ALTR
+PSI_20,Banco Comercial Português,BCP
+PSI_20,Corticeira Amorim,COR
+PSI_20,CTT Correios de Portugal,CTT
+PSI_20,EDP Renováveis,EDPR
+PSI_20,Energias de Portugal,EDP
+PSI_20,Galp Energia,GALP
+PSI_20,Ibersol,IBS
+PSI_20,Jerónimo Martins,JMT
+PSI_20,Mota-Engil,EGL
+PSI_20,NOS,NOS
+PSI_20,Novabase,NBA
+PSI_20,Pharol,PHR
+PSI_20,Redes Energéticas Nacionais,RENE
+PSI_20,Semapa,SEM
+PSI_20,Sonae,SON
+PSI_20,Sonae Capital,SONC
+PSI_20,The Navigator Company,NVG
