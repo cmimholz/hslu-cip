@@ -83,6 +83,7 @@ CAC_40,Unibail-Rodamco-Westfield,URW.PA
 CAC_40,Veolia,VIE.PA
 CAC_40,Vinci,DG.PA
 CAC_40,Worldline,WLN.PA
+ISEQ_20,,
 OBX,Aker BP,AKRBP
 OBX,BW LPG,BWLPG
 OBX,DNB Bank,DNB
@@ -305,3 +306,43 @@ PSI_20,Semapa,SEM
 PSI_20,Sonae,SON
 PSI_20,Sonae Capital,SONC
 PSI_20,The Navigator Company,NVG
+MIB,A2A,A2A.MI
+MIB,Amplifon,AMP.MI
+MIB,Azimut,AZM.MI
+MIB,Banca Generali,BGN.MI
+MIB,Banca Mediolanum,BMED.MI
+MIB,Banco BPM,BAMI.MI
+MIB,BPER Banca,BPE.MI
+MIB,Buzzi Unicem,BZU.MI
+MIB,Campari,CPR.MI
+MIB,CNH Industrial N.V.,CNHI.MI
+MIB,Diasorin,DIA.MI
+MIB,Enel,ENEL.MI
+MIB,Eni,ENI.MI
+MIB,Erg,ERG.MI
+MIB,Ferrari,RACE.MI
+MIB,FinecoBank,FBK.MI
+MIB,Generali,G.MI
+MIB,Hera,HER.MI
+MIB,Interpump Group,IP.MI
+MIB,Intesa Sanpaolo,ISP.MI
+MIB,INWIT,INW.MI
+MIB,Italgas,IG.MI
+MIB,Iveco Group,IVG.MI
+MIB,Leonardo,LDO.MI
+MIB,Mediobanca,MB.MI
+MIB,Moncler,MONC.MI
+MIB,Nexi,NEXI.MI
+MIB,Pirelli,PIRC.MI
+MIB,Poste italiane,PST.MI
+MIB,Prysmian,PRY.MI
+MIB,Recordati,REC.MI
+MIB,Saipem,SPM.MI
+MIB,Snam,SRG.MI
+MIB,Stellantis,STLAM.MI
+MIB,STMicroelectronics,STMMI.MI
+MIB,Telecom Italia,TIT.MI
+MIB,Tenaris,TEN.MI
+MIB,Terna,TRN.MI
+MIB,UniCredit,UCG.MI
+MIB,Unipol,UNI.MI
