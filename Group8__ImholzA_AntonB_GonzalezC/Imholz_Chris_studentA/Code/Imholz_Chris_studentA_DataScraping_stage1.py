@@ -8,6 +8,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+
 def configure_logging():
     """Configure the logging settings."""
     log_filename = datetime.now().strftime('cip_project_script_log_%Y-%m-%d_%H-%M-%S.txt')
@@ -33,25 +34,6 @@ def save_to_csv(df, filepath):
     """Save DataFrame to a CSV file."""
     df.to_csv(filepath, mode = "w",sep=';', index=False)
     logging.info('Data saved to ' + filepath)
-
-
-def process_table_data(elements, required_fields):
-    """
-    General purpose function to process HTML table rows.
-
-    Args:
-        elements (list): A list of Selenium WebElement representing table rows.
-        required_fields (list): A list of field names to extract from the table.
-
-    Returns:
-        list: A list of key-value pairs (tuples) extracted based on required fields.
-    """
-    data = []
-    for element in elements:
-        cells = element.find_elements(By.TAG_NAME, 'td')
-        if cells and cells[0].text.strip() in required_fields:
-            data.append((cells[0].text.strip(), cells[1].text.strip()))
-    return data
 
 def scrape_share_information(driver, url, isin_mic):
     """
@@ -150,35 +132,31 @@ def scrape_characteristics(driver, isin_mic):
         list: A list of key-value pairs of characteristic data.
     """
     share = []
-    #go to page Characteristics
+    # go to page Characteristics
     try:
-        character_button = WebDriverWait(driver, 10).until(
+        character_button = WebDriverWait(driver, 15).until(
             EC.element_to_be_clickable((By.LINK_TEXT, "CHARACTERISTICS"))
         )
 
         character_button.click()
         characteristics_list = []
-        characteristics = ["Type", "Sub type", "Market", "ISIN Code", "Industry","SuperSector", "Sector", "Subsector"]
-
-        driver = WebDriverWait(driver, 10).until(  # waits max 10seconds until the page is loaded
-            EC.presence_of_element_located((By.TAG_NAME, "tr"))
-        )
+        characteristics = ["Type", "Sub type", "Market", "ISIN Code", "Industry", "SuperSector", "Sector", "Subsector"]
+        time.sleep(3)
 
         # With this approach it iterates trough many useless "td" labels. but because of the inexistens of id or unique classe names it is not possible otherwise
         for element in driver.find_elements(By.TAG_NAME, "tr"):
             element_list = element.find_elements(By.TAG_NAME, "td")
 
-            if element_list: # check if there is an element
+            if element_list:  # check if there is an element
                 field = element_list[0].text.strip()
                 if field in characteristics:
                     # Extract the text from the first two cells for each required row
                     # Add the Ratings of the ESG Rating row to the dictionary
                     share.append([field, element_list[1].text.strip()])
     except:
-        print("Characteristics Page not found from ISIN ", isin_mic ,": ", sys.exc_info()[0])
+        print("Characteristics Page not found from ISIN ", isin_mic, ": ", sys.exc_info()[0])
 
     return share
-
 
 def load_data_in_df(share, headers):
     """
@@ -210,9 +188,9 @@ def main():
     driver = initialize_webdriver()
 
     try:
-        df_excel = read_excel_data('/home/student/Cloud/Owncloud/SyncVM/CIP/hslu-cip/data/raw_data_stage1/indexes_to_scrap_stageTEST.xlsx')
+        df_excel = read_excel_data('/home/student/Cloud/Owncloud/SyncVM/CIP/hslu-cip/Group8__ImholzA_AntonB_GonzalezC/Gonzalez_Rodrigo_studentC/Data/GonzalezAlonso_Rodrigo_studentC_stage1.xlsx')
         # Concatenating the 'ISIN' and 'TRADING LOCATION' columns into a new column in the DataFrame
-        df_excel = df_excel.head(5)
+        df_excel = df_excel.head(4)
 
         ISIN_MIC = df_excel['ISIN'] + '-' + df_excel['MIC']
         base_url = 'https://live.euronext.com/en/product/equities/'
