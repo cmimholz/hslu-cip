@@ -1,0 +1,2 @@
+INFO:root:Script started at 2024-04-23 20:27:38.364950
+INFO:root:Script ended at 2024-04-23 20:27:39.326520
